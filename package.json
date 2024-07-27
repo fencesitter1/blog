@@ -11,7 +11,10 @@
     "lint": "next lint",
     "lint:staged": "lint-staged",
     "prettier": "prettier --write './src/**/*.{js,jsx,ts,tsx,json}'",
-    "watch-content": "node ./scripts/watcher.js"
+    "watch-content": "node ./scripts/watcher.js",
+    "ac": "git add . & git-cz",
+    "acp": "git add . & git-cz & git push",
+    "acp:f": "git add . & git-cz & git push --force"
   },
   "dependencies": {
     "@codesandbox/sandpack-react": "^2.13.10",

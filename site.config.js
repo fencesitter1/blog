@@ -1,25 +1,16 @@
 module.exports = {
-  name: 'Xiaojun Zhou',
-  title: 'Xiaojun Zhou',
-  description: '新生代农民工 / 金融消费者 / 共产主义接班人 ',
+  name: 'Suo Chen',
+  title: 'Wei Wu',
+  description: '26 | 初级前端 ',
   avatar: '/avatar.png',
   logo: '/logo.svg',
   siteUrl: 'https://www.xiaojun.im',
   // icon 请在 src/components/Profile.tsx 中修改
   links: [
-    { name: 'GitHub', link: 'https://github.com/xiaojundebug' },
-    { name: 'X', link: 'https://twitter.com/xiaojundebug' },
-    { name: '稀土掘金', link: 'https://juejin.cn/user/3386151543772328' },
-    { name: 'RSS', link: '/feed.xml' },
+    { name: 'GitHub', link: 'https://github.com/fencesitter1' },
+    { name: 'X', link: '' },
   ],
-  friends: [
-    { name: '赖同学', link: 'https://www.laibh.com' },
-    { name: '鯊手', link: 'https://www.cnblogs.com/Scooby' },
-    { name: '戴兜', link: 'https://im.daidr.me' },
-    { name: 'lufangzhou', link: 'https://zhoufanglu.github.io/vuepressBlog' },
-    { name: 'wallleap', link: 'https://myblog.wallleap.cn' },
-    { name: 'Song\'s Blog', link: 'https://songxwn.com' },
-  ],
+  friends: [],
   // en | zh-CN
   language: 'zh-CN',
   // 侧边目录
@@ -32,5 +23,5 @@ module.exports = {
     // 统一配置 CodeBlock 是否显示行号，也可以在 frontmatter 中通过 lineNumbers 字段单独设置
     lineNumbers: false,
   },
-  backToTopButton: true
+  backToTopButton: true,
 }
