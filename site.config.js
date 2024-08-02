@@ -2,9 +2,9 @@ module.exports = {
   name: 'Suo Chen',
   title: 'Wei Wu',
   description: '26 | 初级前端 ',
-  avatar: '/avatar.png',
+  avatar: '/avatar1.svg',
   logo: '/logo.svg',
-  siteUrl: 'https://www.xiaojun.im',
+  siteUrl: 'https://www.wuweiblog.me',
   // icon 请在 src/components/Profile.tsx 中修改
   links: [
     { name: 'GitHub', link: 'https://github.com/fencesitter1' },

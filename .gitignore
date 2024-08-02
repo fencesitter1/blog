@@ -2,6 +2,7 @@
 
 .vscode
 .idea
+.obsidian
 
 # dependencies
 /node_modules
