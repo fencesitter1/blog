@@ -48,10 +48,10 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 -mx-3 sm:-mx-4 mt-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-3 sm:gap-4 -mx-3 sm:-mx-4 mt-8">
       {projects.map(project => (
         <Link
-          className="group relative flex flex-col p-3 sm:p-4 gap-1.5 rounded-xl sm:hover:bg-zinc-400/10 transition-colors"
+          className="group relative flex flex-col p-3 sm:p-4 gap-1.5 rounded-xl hover:bg-zinc-400/10 transition-colors"
           key={project.name}
           href={project.url}
           target="_blank"
