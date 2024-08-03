@@ -38,16 +38,12 @@ const Home: React.FC = async () => {
     <>
       <div className="prose-container">
         <Profile />
+        <TextBlock>你好 👋，我是无为</TextBlock>
+        <TextBlock>就读于ECUST控制专业,目前研二</TextBlock>
         <TextBlock>
-          你好 👋，我是一个前端开发人员（2017 ～ 至今），从事于直播行业，工作地在杭州。
+          真正开始写代码是去年，学习前端也是去年，希望一切都还来得及，早日变强哈哈
         </TextBlock>
-        <TextBlock>
-          我一直对前端开发怀着浓厚的兴趣，同时也持续关注着设计领域的动态与发展，让我感到兴奋的一些事情包括
-          CSS、设计风格、动效、打造出色的组件 API、以及让界面更加生动有趣。
-        </TextBlock>
-        <TextBlock>
-          除此之外我还痴迷于提高个人生产力，我认为同样一个设备或 App 在我手中总能变得更好用 😎。
-        </TextBlock>
+
         <Title text={t('home-page.posts.title')} />
         <LatestPosts />
         <CenteredLink href="/posts">{t('home-page.posts.view-all')}</CenteredLink>

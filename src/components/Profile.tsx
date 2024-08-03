@@ -2,6 +2,7 @@ import React from 'react'
 import config from 'config'
 import Image from 'next/image'
 import { GitHub, Juejin, RSS, X } from './icons'
+import Link from 'next/link'
 
 const links: { name: string; link: string }[] = config.links
 
@@ -19,15 +20,17 @@ const Profile = () => {
       <div className="flex items-center">
         {config.avatar && (
           <div className="relative flex-shrink-0">
-            <Image
-              className="object-cover "
-              src={config.avatar}
-              alt="avatar"
-              width={150}
-              height={150}
-              unoptimized
-              priority
-            />
+            <Link href="https://vue-color-avatar.vercel.app/">
+              <Image
+                className="object-cover "
+                src={config.avatar}
+                alt="avatar"
+                width={150}
+                height={150}
+                unoptimized
+                priority
+              />
+            </Link>
           </div>
         )}
         <div className="ml-6">

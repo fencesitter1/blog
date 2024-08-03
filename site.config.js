@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Suo Chen',
   title: 'Wei Wu',
-  description: '26 | 初级前端 ',
-  avatar: '/avatar1.svg',
+  description: 'frotend developer | sutdent',
+  avatar: '/avatar.png',
   logo: '/logo.svg',
   siteUrl: 'https://www.wuweiblog.me',
   // icon 请在 src/components/Profile.tsx 中修改

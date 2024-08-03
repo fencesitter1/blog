@@ -17,6 +17,7 @@ import { distinctUntilChanged, filter, map, pairwise, share, withLatestFrom } fr
 import clsx from 'clsx'
 import config from 'config'
 import { windowScroll$ } from '@/common/observables'
+import Sign from './Sign'
 
 const MobileHeader: React.FC<{
   menus: { label: string; href: string }[]
@@ -66,14 +67,7 @@ const DesktopHeader: React.FC<{ menus: { label: string; href: string }[] }> = ({
 
   return (
     <div className="prose-container flex items-center justify-between h-[80px]">
-      <Link href="/">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          className="inline-block h-[18px] mr-4 cursor-pointer dark:invert"
-          src={config.logo}
-          alt="logo"
-        />
-      </Link>
+      <Sign />
       <nav>
         <ul
           className="group flex items-center px-3 ring-1 ring-zinc-900/5 dark:ring-zinc-100/10 rounded-full bg-gradient-to-b from-zinc-50/70 to-white/70 dark:from-zinc-900/70 dark:to-zinc-800/70 backdrop-blur backdrop-saturate-200 shadow-lg shadow-zinc-800/5"

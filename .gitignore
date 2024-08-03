@@ -3,7 +3,7 @@
 .vscode
 .idea
 .obsidian
-
+.templates
 # dependencies
 /node_modules
 /.pnp
