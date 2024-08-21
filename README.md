@@ -1,12 +1,9 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fxiaojundebug%2Fxiaojun.im)
 
-# xiaojun.im
 
-[English](./README.md) • [中文](./README.zh-CN.md)
+ fork from [xiaojun.im](https://xiaojun.im/)
 
-My personal blog, built with Next.js, TypeScript, MDX, and TailwindCSS.
-
-👀 [Live Demo](https://xiaojun.im/)
+personal blog, built with Next.js, TypeScript, MDX, and TailwindCSS.
 
 ## Features
 
