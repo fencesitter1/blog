@@ -1,11 +1,12 @@
 module.exports = {
   name: 'Suo Chen',
-  title: 'Wei Wu',
+  title: '无为',
   description: 'frotend developer | sutdent',
   avatar: '/avatar.png',
-  logo: '/logo.svg',
+  logo: '/wuwei.svg',
   siteUrl: 'https://www.wuweiblog.me',
   // icon 请在 src/components/Profile.tsx 中修改
+  description_typing: ['欢迎访问我的博客', '持续学习，向大佬看齐👀', '希望大家天天开心'],
   links: [
     { name: 'GitHub', link: 'https://github.com/fencesitter1' },
     { name: 'X', link: '' },
@@ -21,7 +22,7 @@ module.exports = {
   outdatedPostThresholdDays: 90,
   markdown: {
     // 统一配置 CodeBlock 是否显示行号，也可以在 frontmatter 中通过 lineNumbers 字段单独设置
-    lineNumbers: false,
+    lineNumbers: true,
   },
   backToTopButton: true,
 }
