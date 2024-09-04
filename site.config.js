@@ -3,7 +3,7 @@ module.exports = {
   title: '无为',
   description: 'frotend developer | sutdent',
   avatar: '/avatar.png',
-  logo: '/wuwei.svg',
+  logo: '/logo.svg',
   siteUrl: 'https://www.wuweiblog.me',
   // icon 请在 src/components/Profile.tsx 中修改
   description_typing: ['欢迎访问我的博客', '持续学习，向大佬看齐👀', '希望大家天天开心'],
