@@ -8,7 +8,7 @@ const config = {
   },
   images: {
     formats: ['image/avif', 'image/webp'],
-    domains: [],
+    domains: ['cdn.jsdelivr.net'],
   },
   experimental: {
     serverComponentsExternalPackages: ['plaiceholder', 'fetch-site-metadata'],

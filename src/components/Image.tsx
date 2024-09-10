@@ -19,7 +19,7 @@ const Image: React.FC<ImageProps> = props => {
       height={height}
       src={src}
       alt={alt}
-      placeholder="blur"
+      // placeholder="blur"
       blurDataURL={lqip}
     />
   )
